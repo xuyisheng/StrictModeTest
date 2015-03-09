@@ -1,0 +1,304 @@
+Drop box contents: 185 entries
+Searching for: data_app_strictmode
+
+========================================
+2015-03-09 17:47:11 data_app_strictmode (text, 2437 bytes)
+Process: com.imooc.strictmodetest
+Flags: 0x88be46
+Package: com.imooc.strictmodetest v1 (1.0)
+Build: TCL/idol347/idol347:5.0.2/LRX22G/1040:userdebug/release-keys
+System-App: false
+Uptime-Millis: 389545129
+Loop-Violation-Number: 1
+Duration-Millis: 524
+
+android.os.StrictMode$StrictModeDiskReadViolation: policy=183 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1137)
+	at libcore.io.BlockGuardOs.stat(BlockGuardOs.java:292)
+	at dalvik.system.DexPathList.splitAndAdd(DexPathList.java:190)
+	at dalvik.system.DexPathList.splitPaths(DexPathList.java:174)
+	at dalvik.system.DexPathList.splitDexPath(DexPathList.java:139)
+	at dalvik.system.DexPathList.<init>(DexPathList.java:109)
+	at dalvik.system.BaseDexClassLoader.<init>(BaseDexClassLoader.java:48)
+	at dalvik.system.PathClassLoader.<init>(PathClassLoader.java:38)
+	at org.apache.http.impl.conn.TcmIdleTimerMonitor.<init>(TcmIdleTimerMonitor.java:60)
+	at org.apache.http.impl.conn.SingleClientConnManager.<init>(SingleClientConnManager.java:128)
+	at org.apache.http.impl.client.DefaultHttpClient.createClientConnectionManager(DefaultHttpClient.java:208)
+	at org.apache.http.impl.client.AbstractHttpClient.getConnectionManager(AbstractHttpClient.java:221)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:539)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+	at com.imooc.strictmodetest.MainActivity.onCreate(MainActivity.java:43)
+	at android.app.Activity.performCreate(Activity.java:5976)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1105)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2262)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2371)
+	at android.app.ActivityThread.access$800(ActivityThread.java:149)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1289)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:135)
+	at android.app.ActivityThread.main(ActivityThread.java:5260)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:372)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:898)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:693)
+
+
+========================================
+2015-03-09 17:47:13 data_app_strictmode (text, 2441 bytes)
+Process: com.imooc.strictmodetest
+Flags: 0x88be46
+Package: com.imooc.strictmodetest v1 (1.0)
+Build: TCL/idol347/idol347:5.0.2/LRX22G/1040:userdebug/release-keys
+System-App: false
+Uptime-Millis: 389545130
+Loop-Violation-Number: 2
+Duration-Millis: 523
+
+android.os.StrictMode$StrictModeDiskReadViolation: policy=183 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java:1137)
+	at libcore.io.BlockGuardOs.stat(BlockGuardOs.java:292)
+	at dalvik.system.DexPathList.splitAndAdd(DexPathList.java:190)
+	at dalvik.system.DexPathList.splitPaths(DexPathList.java:175)
+	at dalvik.system.DexPathList.splitLibraryPath(DexPathList.java:157)
+	at dalvik.system.DexPathList.<init>(DexPathList.java:117)
+	at dalvik.system.BaseDexClassLoader.<init>(BaseDexClassLoader.java:48)
+	at dalvik.system.PathClassLoader.<init>(PathClassLoader.java:38)
+	at org.apache.http.impl.conn.TcmIdleTimerMonitor.<init>(TcmIdleTimerMonitor.java:60)
+	at org.apache.http.impl.conn.SingleClientConnManager.<init>(SingleClientConnManager.java:128)
+	at org.apache.http.impl.client.DefaultHttpClient.createClientConnectionManager(DefaultHttpClient.java:208)
+	at org.apache.http.impl.client.AbstractHttpClient.getConnectionManager(AbstractHttpClient.java:221)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:539)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+	at com.imooc.strictmodetest.MainActivity.onCreate(MainActivity.java:43)
+	at android.app.Activity.performCreate(Activity.java:5976)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1105)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2262)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2371)
+	at android.app.ActivityThread.access$800(ActivityThread.java:149)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1289)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:135)
+	at android.app.ActivityThread.main(ActivityThread.java:5260)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:372)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:898)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:693)
+
+
+========================================
+2015-03-09 17:47:14 data_app_strictmode (text, 2177 bytes)
+Process: com.imooc.strictmodetest
+Flags: 0x88be46
+Package: com.imooc.strictmodetest v1 (1.0)
+Build: TCL/idol347/idol347:5.0.2/LRX22G/1040:userdebug/release-keys
+System-App: false
+Uptime-Millis: 389545133
+Loop-Violation-Number: 4
+Duration-Millis: 520
+
+android.os.StrictMode$StrictModeNetworkViolation: policy=183 violation=4
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onNetwork(StrictMode.java:1153)
+	at java.net.InetAddress.lookupHostByName(InetAddress.java:418)
+	at java.net.InetAddress.getAllByNameImpl(InetAddress.java:252)
+	at java.net.InetAddress.getAllByName(InetAddress.java:215)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:137)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+	at com.imooc.strictmodetest.MainActivity.onCreate(MainActivity.java:43)
+	at android.app.Activity.performCreate(Activity.java:5976)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1105)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2262)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2371)
+	at android.app.ActivityThread.access$800(ActivityThread.java:149)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1289)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:135)
+	at android.app.ActivityThread.main(ActivityThread.java:5260)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:372)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:898)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:693)
+
+
+========================================
+2015-03-09 17:47:16 data_app_strictmode (text, 2420 bytes)
+Process: com.imooc.strictmodetest
+Flags: 0x88be46
+Package: com.imooc.strictmodetest v1 (1.0)
+Build: TCL/idol347/idol347:5.0.2/LRX22G/1040:userdebug/release-keys
+System-App: false
+Uptime-Millis: 389545136
+Loop-Violation-Number: 5
+Duration-Millis: 517
+
+android.os.StrictMode$StrictModeNetworkViolation: policy=183 violation=4
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onNetwork(StrictMode.java:1153)
+	at libcore.io.BlockGuardOs.connect(BlockGuardOs.java:110)
+	at libcore.io.IoBridge.connectErrno(IoBridge.java:137)
+	at libcore.io.IoBridge.connect(IoBridge.java:122)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:183)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:456)
+	at java.net.Socket.connect(Socket.java:882)
+	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:119)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:144)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:164)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:119)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:360)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+	at com.imooc.strictmodetest.MainActivity.onCreate(MainActivity.java:43)
+	at android.app.Activity.performCreate(Activity.java:5976)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1105)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2262)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2371)
+	at android.app.ActivityThread.access$800(ActivityThread.java:149)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1289)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:135)
+	at android.app.ActivityThread.main(ActivityThread.java:5260)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:372)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:898)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:693)
+
+
+========================================
+2015-03-09 17:47:18 data_app_strictmode (text, 2920 bytes)
+Process: com.imooc.strictmodetest
+Flags: 0x88be46
+Package: com.imooc.strictmodetest v1 (1.0)
+Build: TCL/idol347/idol347:5.0.2/LRX22G/1040:userdebug/release-keys
+System-App: false
+Uptime-Millis: 389545274
+Loop-Violation-Number: 6
+Duration-Millis: 379
+
+android.os.StrictMode$StrictModeNetworkViolation: policy=183 violation=4
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onNetwork(StrictMode.java:1153)
+	at libcore.io.BlockGuardOs.recvfrom(BlockGuardOs.java:249)
+	at libcore.io.IoBridge.recvfrom(IoBridge.java:553)
+	at java.net.PlainSocketImpl.read(PlainSocketImpl.java:485)
+	at java.net.PlainSocketImpl.access$000(PlainSocketImpl.java:37)
+	at java.net.PlainSocketImpl$PlainSocketInputStream.read(PlainSocketImpl.java:237)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:103)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:191)
+	at org.apache.http.impl.conn.DefaultResponseParser.parseHead(DefaultResponseParser.java:82)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:174)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:180)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:235)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:259)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:279)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:121)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:428)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:555)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:487)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:465)
+	at com.imooc.strictmodetest.MainActivity.onCreate(MainActivity.java:43)
+	at android.app.Activity.performCreate(Activity.java:5976)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1105)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2262)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2371)
+	at android.app.ActivityThread.access$800(ActivityThread.java:149)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1289)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:135)
+	at android.app.ActivityThread.main(ActivityThread.java:5260)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:372)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:898)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:693)
+
+
+========================================
+2015-03-09 17:47:19 data_app_strictmode (text, 2378 bytes)
+Process: com.imooc.strictmodetest
+Flags: 0x88be46
+Package: com.imooc.strictmodetest v1 (1.0)
+Build: TCL/idol347/idol347:5.0.2/LRX22G/1040:userdebug/release-keys
+System-App: false
+Uptime-Millis: 389545333
+Loop-Violation-Number: 7
+Duration-Millis: 320
+
+android.os.StrictMode$StrictModeNetworkViolation: policy=183 violation=4
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onNetwork(StrictMode.java:1153)
+	at libcore.io.BlockGuardOs.recvfrom(BlockGuardOs.java:249)
+	at libcore.io.IoBridge.recvfrom(IoBridge.java:553)
+	at java.net.PlainSocketImpl.read(PlainSocketImpl.java:485)
+	at java.net.PlainSocketImpl.access$000(PlainSocketImpl.java:37)
+	at java.net.PlainSocketImpl$PlainSocketInputStream.read(PlainSocketImpl.java:237)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:103)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.readLine(AbstractSessionInputBuffer.java:191)
+	at org.apache.http.impl.io.ChunkedInputStream.getChunkSize(ChunkedInputStream.java:220)
+	at org.apache.http.impl.io.ChunkedInputStream.nextChunk(ChunkedInputStream.java:183)
+	at org.apache.http.impl.io.ChunkedInputStream.read(ChunkedInputStream.java:155)
+	at org.apache.http.conn.EofSensorInputStream.read(EofSensorInputStream.java:159)
+	at java.io.InputStreamReader.read(InputStreamReader.java:231)
+	at java.io.BufferedReader.fillBuf(BufferedReader.java:145)
+	at java.io.BufferedReader.readLine(BufferedReader.java:397)
+	at com.imooc.strictmodetest.MainActivity.onCreate(MainActivity.java:48)
+	at android.app.Activity.performCreate(Activity.java:5976)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1105)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2262)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2371)
+	at android.app.ActivityThread.access$800(ActivityThread.java:149)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1289)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:135)
+	at android.app.ActivityThread.main(ActivityThread.java:5260)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:372)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:898)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:693)
+
+
+========================================
+2015-03-09 17:47:21 data_app_strictmode (text, 2448 bytes)
+Process: com.imooc.strictmodetest
+Flags: 0x88be46
+Package: com.imooc.strictmodetest v1 (1.0)
+Build: TCL/idol347/idol347:5.0.2/LRX22G/1040:userdebug/release-keys
+System-App: false
+Uptime-Millis: 389545334
+Loop-Violation-Number: 8
+Duration-Millis: 319
+
+android.os.StrictMode$StrictModeNetworkViolation: policy=183 violation=4
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onNetwork(StrictMode.java:1153)
+	at libcore.io.BlockGuardOs.recvfrom(BlockGuardOs.java:249)
+	at libcore.io.IoBridge.recvfrom(IoBridge.java:553)
+	at java.net.PlainSocketImpl.read(PlainSocketImpl.java:485)
+	at java.net.PlainSocketImpl.access$000(PlainSocketImpl.java:37)
+	at java.net.PlainSocketImpl$PlainSocketInputStream.read(PlainSocketImpl.java:237)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.fillBuffer(AbstractSessionInputBuffer.java:103)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.read(AbstractSessionInputBuffer.java:134)
+	at org.apache.http.impl.io.ChunkedInputStream.read(ChunkedInputStream.java:161)
+	at org.apache.http.impl.io.ChunkedInputStream.read(ChunkedInputStream.java:175)
+	at org.apache.http.impl.io.ChunkedInputStream.exhaustInputStream(ChunkedInputStream.java:289)
+	at org.apache.http.impl.io.ChunkedInputStream.close(ChunkedInputStream.java:262)
+	at org.apache.http.conn.BasicManagedEntity.streamClosed(BasicManagedEntity.java:179)
+	at org.apache.http.conn.EofSensorInputStream.checkClose(EofSensorInputStream.java:266)
+	at org.apache.http.conn.EofSensorInputStream.close(EofSensorInputStream.java:213)
+	at com.imooc.strictmodetest.MainActivity.onCreate(MainActivity.java:54)
+	at android.app.Activity.performCreate(Activity.java:5976)
+	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1105)
+	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2262)
+	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:2371)
+	at android.app.ActivityThread.access$800(ActivityThread.java:149)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1289)
+	at android.os.Handler.dispatchMessage(Handler.java:102)
+	at android.os.Looper.loop(Looper.java:135)
+	at android.app.ActivityThread.main(ActivityThread.java:5260)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:372)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:898)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:693)
+
+
