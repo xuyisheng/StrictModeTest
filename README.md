@@ -1,0 +1,2 @@
+# StrictModeTest
+StrictModeTest
